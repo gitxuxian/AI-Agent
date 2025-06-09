@@ -1,0 +1,2767 @@
+<!doctype html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Roxie - LGBTQ, Bar, Shanghai | SmartShanghai</title>
+    
+    <meta name="description" content="One of Shanghai's only lesbian bars, dimly lit bar/lounge space Roxie arrived in 2015 via a Dutch gal who goes by Ting Ting, who also owns metal bar Inferno. During the week, Roxie is a chill spot for relaxing and conversing with friends, but on the weekend it tends to get packed with a bit of dancing once people have enough drinks. The place isn't huge, so it can get pretty intimate. As a lesbian bar, it has a nice mix of genders, and has been the only lala bar where gay boys are welcome as well. It’s in a great location, with The Shed just across the street and Uva not too far away. Cocktails run 45rmb for a rum and coke to 75rmb for a Long Island, and bartenders are well trained. "/>
+            <link rel="stylesheet" type="text/css" href="https://static.smartshanghai.com/css/smartshanghai.min.1743082779.css">
+    <link rel="stylesheet" type="text/css" href="https://static.smartshanghai.com/css/smartshanghai_v8.min.1743082778.css">
+    
+    <link rel="icon" type="image/png" href="https://static.smartshanghai.com/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="https://static.smartshanghai.com/img/favicon.ico">
+
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35757037-1"></script>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-35757037-1');
+</script>
+    
+            <link rel="canonical" href="https://www.smartshanghai.com/venue/12919/roxie">
+    
+    <script type="text/javascript" src="https://static.smartshanghai.com/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://static.smartshanghai.com/js/vendor.min.1743082784.js"></script>
+    <script type="text/javascript" src="https://static.smartshanghai.com/js/javascripts.min.1709740003.js"></script>
+    <script type="text/javascript" src="https://static.smartshanghai.com/js/public.min.1743082793.js"></script>
+
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            window.smsh.methods.setConfig({"debug":false,"apiBaseUrl":"https:\/\/www.smartshanghai.com\/api2","apiKey":"74697295525def9620013f39488d9ace93b3d666","googleAnalyticsKey":"UA-35757037-1","user":null});            window.smsh.methods.init();
+            // window.huangfeitracking.methods.init();
+        });
+    </script>
+
+    
+    
+    <script type="text/javascript" src="https://static.smartshanghai.com/js/venueListing.min.1743082793.js"></script>
+
+
+
+    <script type="text/javascript">
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+
+            $('.open-feedback-box-link').on('click', function() {
+                window.smsh.methods.initFeedbackBox();
+            });
+
+
+
+
+
+            $('#showArchivedEvents').on('click', function(e) {
+                $(this).hide();
+                $('#archivedEvents').show();
+            });
+
+
+            $('#smartconcierge-popup').on('click', function() {
+                $('.smartconcierge-box').lightbox_me();
+            });
+
+            window.smshVenueListing.methods.initVenueListing();
+
+            try {
+                window.smsh.methods.listingMessager('#privateMessageForm', 'venue', 12919);
+            } catch (error) {
+                console.log('error initiating private message form ' + error);
+            }
+
+                        var x;
+            let locations = [];
+            
+            
+            //头部图片走马灯
+            window.smsh.methods.initMainImageSlider('.main-image-slider','686px','457px');
+
+            window.smsh.methods.initFixedMap('venue-map-lightbox', 17);
+
+            //地图lightbox
+            $('.map.web').on("click", function (e) {
+                e.preventDefault();
+                $('.map-lightbox').lightbox_me({
+                    centered: true,
+                });
+            });
+
+            let inquiryOn = false;
+
+            $('.inquiry-button .button').on('click', function (e) {
+                e.preventDefault();
+
+                $('.inquiry-box.inquiry-form').fadeToggle();
+                $('.inquiry-box.inquiry-button').fadeToggle();
+                $('.inquiry-black-bg').fadeToggle();
+                inquiryOn = true;
+            })
+
+            $('.inquiry-black-bg').on('click', function (e) {
+                e.preventDefault();
+
+                $('.inquiry-box.inquiry-form').fadeToggle();
+                $('.inquiry-box.inquiry-button').fadeToggle();
+                $('.inquiry-black-bg').fadeToggle();
+                inquiryOn = false;
+            })
+
+
+
+            $('.addLunchDeal').on('click', function (e) {
+                e.preventDefault();
+                $('#appPopupPurposeText').html('add a Lunch Deal');
+
+                $('#add-picture-lightbox').lightbox_me({
+                    centered: true,
+                    overlayCSS: {
+                        background: 'black',
+                        opacity: .7
+                    },
+                    destroyOnClose: false,
+                });
+            })
+
+
+            $('.addHappyHour').on('click', function (e) {
+                e.preventDefault();
+                $('#appPopupPurposeText').html('add a Happy Hour Deal');
+
+                $('#add-picture-lightbox').lightbox_me({
+                    centered: true,
+                    overlayCSS: {
+                        background: 'black',
+                        opacity: .7
+                    },
+                    destroyOnClose: false,
+                });
+            })
+
+
+
+            $('.open-add-photo-lightbox').on('click', function (e) {
+                e.preventDefault();
+                $('#appPopupPurposeText').html('to upload pictures ');
+
+                $('#add-picture-lightbox').lightbox_me({
+                    centered: true,
+                    overlayCSS: {
+                        background: 'black',
+                        opacity: .7
+                    },
+                    destroyOnClose: false,
+                });
+            })
+
+
+            $('.open-recommend-lightbox').on('click', function (e) {
+                e.preventDefault();
+                $('#appPopupPurposeText').html('write a recommendation');
+
+                $('#add-picture-lightbox').lightbox_me({
+                    centered: true,
+                    overlayCSS: {
+                        background: 'black',
+                        opacity: .7
+                    },
+                    destroyOnClose: false,
+                });
+            })
+
+            //头部浮动控制
+
+
+        })
+
+
+
+
+
+        document.addEventListener('scroll', function (event) {
+            let elements = document.getElementsByClassName('venue-body');
+            if(elements[0]) {
+                let thisClientRect = elements[0].getBoundingClientRect()
+
+                // console.log(thisClientRect.y);
+
+                if (thisClientRect.y < 0) {
+                    $('.venue-listing-web-header').addClass('fixed')
+                    $('#site-footer').addClass('add-fixed-in-venue-listing')
+
+                }else {
+                    $('.venue-listing-web-header').removeClass('fixed')
+                    $('#site-footer').removeClass('add-fixed-in-venue-listing')
+                }
+            }
+        })
+
+    </script>
+
+    <style type="text/css">
+        @media screen and (max-width: 600px){
+            .site-fixed-bottom {
+                bottom: 195px;
+            }
+        }
+    </style>
+
+
+
+</head>
+<body id="mobile-optimize">
+
+
+        <div class="v9_ready  header">
+        <div class="site-header" id="site-header-app-bind" style="background: #ffffff;">
+
+
+                                                                        <div id="wallpaper"  style="height: 210px; background: url(https://www.smartshanghai.com/uploads/repository/2025/05/21/56c1121c-338b-4489-bfa2-8f692c626ef5.jpg) center 0px / 1700px no-repeat scroll #2B0E40;" data-maxheight=720><a href="https://www.smartshanghai.com/event/78789" target="_blank" style="display: block; height: 100%; width: 100%;"></a></div>
+                                                
+
+
+            <div class="main-block">
+                <div class="page-column">
+
+                    <div class="logo-block">
+                        <a id="hamburger-menu-icon" class="open-main-menu">
+                            <div class="header--hamburger header--hamburger-dims"></div>
+                        </a>
+
+                        <a href="/" class="logo">
+                            <img src="https://static.smartshanghai.com/img/general/logos/smsh-logo.svg" alt="SmartShanghai logo">
+                        </a>
+                    </div>
+
+
+                    <div class="search-block" id="site-search">
+                        <form method="get" >
+                            <input type="text" id="site-search-input" placeholder="Search Places & Services, Events, Articles ..." name="query" autocomplete="off">
+                            <input type="submit" value="">
+                        </form>
+
+                        <div class="search-results ">
+                            <ul class="search-tabs" id="search-select-tabs">
+                                <li class="active" data-pane-id="search-looking-for">
+                                    I’m Looking For …
+                                </li>
+                                <li data-pane-id="search-how-to">
+                                    How To …
+                                </li>
+                            </ul>
+
+                            <ul class="search-open-tabs" data-tab-group-id="search-select-tabs">
+                                <li class="loaded active" id="search-looking-for">
+
+                                                                            <div class="tab-pane">
+                                            <b>F&B</b>:
+                                                                                            <a href="/listings/dining/">Restaurants</a>,                                                                                            <a href="/nightlife/">Bars</a>,                                                                                            <a href="/listings/nightlife/clubs/">Clubs</a>,                                                                                            <a href="/listings/nightlife/jazz/">Jazz</a>,                                                                                            <a href="/listings/nightlife/livemusic/">Live Music</a>,                                                                                            <a href="/listings/nightlife/dive/">Dives</a>,                                                                                            <a href="/listings/nightlife/winebar/">Wine Bars</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Business</b>:
+                                                                                            <a href="/listings/business/lawyers/">Lawyers</a>,                                                                                            <a href="/listings/business/financial-advisory/">Financial Advisory</a>,                                                                                            <a href="/listings/business/business-consultancy/">Business Consultancy</a>,                                                                                            <a href="/business/">...</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Living</b>:
+                                                                                            <a href="/housing/">Apartments</a>,                                                                                            <a href="/housing/service-apartments/">Serviced Apartments</a>,                                                                                            <a href="/housing/shared-apartments/">Shared Apartments</a>,                                                                                            <a href="/listings/services/nanny/">Ayis</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Services</b>:
+                                                                                            <a href="/listings/services/computer_support/">Tech Support</a>,                                                                                            <a href="/listings/services/laundry_service/">Laundry</a>,                                                                                            <a href="/listings/services/moving_relocation/">Movers</a>,                                                                                            <a href="/listings/services/storage/">Storage</a>,                                                                                            <a href="/listings/services/tailors/">Tailors</a>,                                                                                            <a href="/listings/services/tailors/">...</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Education</b>:
+                                                                                            <a href="/listings/education/early-childhood-education/">Kindergartens</a>,                                                                                            <a href="/listings/education/primary-schools/">Primary Schools</a>,                                                                                            <a href="/listings/education/secondary-schools/">Secondary Schools</a>,                                                                                            <a href="/listings/education/language-schools/">Mandarin Schools</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Health</b>:
+                                                                                            <a href="/listings/health-wellbeing/emergency/">Emergency Rooms</a>,                                                                                            <a href="/listings/health-wellbeing/hospitals/">Hospitals & Clinics</a>,                                                                                            <a href="/listings/health-wellbeing/dental_care/">Dentists</a>,                                                                                            <a href="/listings/health-wellbeing/mental_health/">Mental Wellbeing</a>,                                                                                            <a href="/health-wellbeing/">...</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Beauty</b>:
+                                                                                            <a href="/listings/beauty/hair_salon/">Hair Salons</a>,                                                                                            <a href="/listings/beauty/barbers/">Barbers</a>,                                                                                            <a href="/listings/spa_and_massage/">Massage</a>,                                                                                            <a href="/listings/beauty/waxing/">Waxing</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Kids & Family</b>:
+                                                                                            <a href="/listings/kids-and-family/kids-indoor-activities/">Indoor Activities</a>,                                                                                            <a href="/listings/kids-and-family/collection-kids-summer-activities/">Outdoor Activities</a>,                                                                                            <a href="/listings/education/after-school/">After School</a>,                                                                                            <a href="/listings/kids-and-family/kids-sports-activities/">Kid's Sports</a>,                                                                                            <a href="/kids-and-family/">...</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Pets</b>:
+                                                                                            <a href="/listings/shopping/pet-supplies-food/">Suppliers and Food</a>,                                                                                            <a href="/listings/services/pet-hotel/">Hotels</a>,                                                                                            <a href="/listings/services/veterinary/">Vets</a>,                                                                                            <a href="/listings/services/pet-sitting/">Pet Sitting</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Sports</b>:
+                                                                                            <a href="/listings/sportrecreation/dance_studios/">Dance Studios</a>,                                                                                            <a href="/listings/services/pet-hotel/">Fitness Centers</a>,                                                                                            <a href="/listings/sportrecreation/martial_arts/">Martial Arts</a>                                                                                    </div>
+                                    
+                                </li>
+
+                                <li class="loaded" id="search-how-to">
+                                                                            <div class="tab-pane">
+                                            <b>General</b>:
+                                                                                            <a href="/articles/community/shanghai-beginners-guide-how-to-survive-and-prosper-in-the-city">Shanghai Essential Guide</a>,                                                                                            <a href="/articles/travel-and-sightseeing/all-the-qr-codes-you-need-to-arrive-and-register-in-shanghai">Arrival Tools</a>,                                                                                            <a href="/articles/shanghai-life/how-to-deal-with-emergency-situations">Emergencies</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Finance</b>:
+                                                                                            <a href="/articles/smsh/yes-foreigners-can-use-alipay-this-is-how">Setup Alipay</a>,                                                                                            <a href="/articles/tech/how-to-use-wechat-pay-wallet-and-link-a-bank-card">Setup WeChat Pay</a>,                                                                                            <a href="/articles/activities/how-to-send-money-overseas">Send Money Abroad</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Work</b>:
+                                                                                            <a href="/jobs/">Find a Job</a>,                                                                                            <a href="/articles/activities/how-to-change-jobs-without-visa-trouble">Change Jobs</a>,                                                                                            <a href="/articles/jobs/the-explainer-all-you-need-to-know-about-severance">Get Severance</a>,                                                                                            <a href="/articles/business/the-big-and-lovable-china-income-tax-faq">Pay Income Tax</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Visa</b>:
+                                                                                            <a href="/articles/shanghai-life/the-faq-china-visa-on-arrivals-need-to-know">Travel Visa Free</a>,                                                                                            <a href="/articles/shanghai-life/how-to-get-a-work-visa">Get A Work Visa</a>,                                                                                            <a href="/articles/jobs/how-to-get-a-chinese-green-card">Get a Green Card</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Logistics</b>:
+                                                                                            <a href="/articles/tech/tested-how-to-use-didi-now-that-its-in-english">Use Didi</a>,                                                                                            <a href="/articles/tech/how-to-courier-something-in-shanghai">Courier Something</a>,                                                                                            <a href="/articles/community/how-to-get-a-chinese-drivers-license-in-shanghai">Get a Driving Licence</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Home</b>:
+                                                                                            <a href="/articles/community/how-to-find-a-cheap-and-fairly-priced-apartment-in-shanghai">Find an Apartment</a>,                                                                                            <a href="/articles/shanghai-life/how-to-find-an-ayi-household-helper-in-shanghai">Find a Nanny/Ayi</a>,                                                                                            <a href="/articles/shopping/how-to-fix-everything-wrong-with-your-apartment">Fix Your Apartment</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Shopping</b>:
+                                                                                            <a href="/articles/shopping/how-to-taobao-the-simple-way">Buy Stuff on Taobao</a>,                                                                                            <a href="/articles/shopping/how-to-make-a-return-on-taobao">Return Stuff on Taobao</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Life</b>:
+                                                                                            <a href="/articles/smsh/avoiding-scams-in-shanghai">Avoid Scams</a>,                                                                                            <a href="/articles/community/how-to-get-married-in-china">Get Married</a>,                                                                                            <a href="/articles/wellbeing/how-to-get-a-divorce-in-shanghai">Get Divorced</a>,                                                                                            <a href="/articles/community/how-to-be-happy-in-shanghai">Be Happy</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Pets</b>:
+                                                                                            <a href="/articles/community/how-to-get-a-dog-license-in-china">Get a Dog Licence</a>,                                                                                            <a href="/articles/community/how-to-take-your-pet-out-of-china">Take Pets Out of China</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Good Citizen</b>:
+                                                                                            <a href="/articles/community/the-charities-where-and-what-to-donate-this-holiday">Donate Stuff</a>,                                                                                            <a href="/wire/community/donating-blood-during-the-special-period">Donate Blood</a>,                                                                                            <a href="/articles/activities/how-to-recycle-in-shanghai">Recycle</a>,                                                                                            <a href="/articles/community/the-listicle-volunteering-in-shanghai">Volunteer</a>                                                                                    </div>
+                                                                            <div class="tab-pane">
+                                            <b>Health</b>:
+                                                                                            <a href="/articles/health-wellbeing/how-to-book-public-hospitals">Book a Hospital</a>,                                                                                            <a href="/articles/health-and-wellbeing/the-big-guide-to-health-check-ups-in-shanghai-where-how-much-and-what-to-expect">Get a Checkup</a>,                                                                                            <a href="/articles/health-wellbeing/how-to-book-public-hospitals">Get Health Insurance</a>                                                                                    </div>
+                                                                    </li>
+                            </ul>
+
+                            <div class="search-open-concierge">
+
+                                    <div class="img">
+                                        <a href="/concierge/">
+                                            <img class="image" src="/img/mediakit/smsh-concierge-header.png">
+                                        </a>
+                                    </div>
+                                    <div class="txt">
+                                        <a href="/concierge/">
+                                            <b>Need help?</b> Try <i>SmSh Concierge</i>
+                                            for tailored recommendations and hands-on assistance.
+                                        </a>
+                                    </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="user-block">
+                        <a href="/userarea/favorites" class="tooltip favorite" data-tooltip="Favorites">
+                            <div>
+                                <div class="header--favorite header--favorite-dims"></div>
+                            </div>
+                        </a>
+                        <a class="tooltip add" data-tooltip="List" id="list-with-us-button">
+                            <div>
+                                <div class="header--add header--add-dims"></div>
+                            </div>
+                        </a>
+
+                                                    <a href="/signin" class="avatar-container tooltip" data-tooltip="Account">
+                                <div class="avatar">
+                                    <img class="avatar" src="https://static.smartshanghai.com/img/icons/svg/icon-profile.svg" alt="User avatar image" style="margin: auto;">
+                                </div>
+                            </a>
+                        
+                    </div>
+
+                    <div class="smsh-mobile-menu">
+                        <div class="bg-shadow"></div>
+                        <ul class="mobile-menu">
+
+                                                                                                <li>
+
+                                        <a href="/dining/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/a6a5ea6e-f18e-4118-9ffa-e87e7b67725d.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/a6a5ea6e-f18e-4118-9ffa-e87e7b67725d.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/a6a5ea6e-f18e-4118-9ffa-e87e7b67725d.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Dining</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/nightlife/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/b9ba18aa-5d16-4985-a612-b1f96728c7f9.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/b9ba18aa-5d16-4985-a612-b1f96728c7f9.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/b9ba18aa-5d16-4985-a612-b1f96728c7f9.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Nightlife</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/services/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/f7353d2d-f84a-4509-9b58-8abcc80de2a2.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/f7353d2d-f84a-4509-9b58-8abcc80de2a2.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/f7353d2d-f84a-4509-9b58-8abcc80de2a2.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Services</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/events/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/52506711-11b3-411e-af68-596dac10ad7e.png.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/52506711-11b3-411e-af68-596dac10ad7e.png.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/52506711-11b3-411e-af68-596dac10ad7e.png.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Events</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/deals/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/357dbee0-a99c-485e-b3a4-a87b5845e751.png.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/357dbee0-a99c-485e-b3a4-a87b5845e751.png.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/357dbee0-a99c-485e-b3a4-a87b5845e751.png.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Deals</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/housing/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/0793f5c3-5b7b-404a-a25d-693d4b455f44.png.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/0793f5c3-5b7b-404a-a25d-693d4b455f44.png.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/0793f5c3-5b7b-404a-a25d-693d4b455f44.png.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Housing</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/jobs/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/aeac1807-b2da-45fa-9d7d-720c4ed94f47.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/aeac1807-b2da-45fa-9d7d-720c4ed94f47.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/aeac1807-b2da-45fa-9d7d-720c4ed94f47.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Jobs</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/outbound/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2025/03/26/8b34be72-ecba-48f6-b4aa-b9e8d19e0349.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2025/03/26/8b34be72-ecba-48f6-b4aa-b9e8d19e0349.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2025/03/26/8b34be72-ecba-48f6-b4aa-b9e8d19e0349.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Outbound</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/essentials/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2023/02/02/1392bd31-af80-4e19-a65a-95cfa04f73c3.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2023/02/02/1392bd31-af80-4e19-a65a-95cfa04f73c3.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2023/02/02/1392bd31-af80-4e19-a65a-95cfa04f73c3.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>SH 101</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/buyandsell/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/13de4891-cd21-4563-b5c5-8f91ff36cfe9.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/13de4891-cd21-4563-b5c5-8f91ff36cfe9.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/13de4891-cd21-4563-b5c5-8f91ff36cfe9.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Buy&Sell</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/education/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/168ad3ea-3c79-42ac-8d43-2ffe588fb89c.png.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/168ad3ea-3c79-42ac-8d43-2ffe588fb89c.png.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/168ad3ea-3c79-42ac-8d43-2ffe588fb89c.png.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Education</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/kids-and-family/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/19/e375aae7-fd47-422e-9d1d-4172d6397a7b.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/19/e375aae7-fd47-422e-9d1d-4172d6397a7b.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/19/e375aae7-fd47-422e-9d1d-4172d6397a7b.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Kids</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/health-wellbeing/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/6b9e3778-d435-4a86-a7f2-8a612f8a8855.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/6b9e3778-d435-4a86-a7f2-8a612f8a8855.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/6b9e3778-d435-4a86-a7f2-8a612f8a8855.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Health</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/listings/beauty/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/b8182299-3b08-4272-8230-7a2d2d6e7d47.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/b8182299-3b08-4272-8230-7a2d2d6e7d47.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/b8182299-3b08-4272-8230-7a2d2d6e7d47.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Beauty</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/listings/shopping/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/7ef44f09-c477-4ff8-b066-5adc41d955c9.jpg.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/7ef44f09-c477-4ff8-b066-5adc41d955c9.jpg.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/7ef44f09-c477-4ff8-b066-5adc41d955c9.jpg.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Shopping</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/properties/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/36ea7495-07b7-4831-b7cf-f6f6446ca09a.png.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/36ea7495-07b7-4831-b7cf-f6f6446ca09a.png.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2022/12/13/36ea7495-07b7-4831-b7cf-f6f6446ca09a.png.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Offices</span>
+                                        </a>
+                                    </li>
+                                                                                                                                                                                            <li>
+
+                                        <a href="/smash/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                                                                            <img src="https://images.smartshanghai.com.cn/uploads/repository/2024/03/18/59d37354-d71c-4b6a-a1f9-ff355da7741d.gif" loading="lazy" class="tag-icon with-loader">
+                                                                                                                                                </div>
+
+                                            <span>Gift Shop</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+
+                                        <a href="/events/summer-camps/">
+
+                                            <div class="tag-icon">
+                                                                                                    
+                                                    
+                                                        <picture>
+                                                            <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2023/05/24/8faf9d7c-52c7-4050-a94e-cee683d50419.png.600.0.webp.90.90.webP 90w, https://images.smartshanghai.com.cn/uploads/compressed/2023/05/24/8faf9d7c-52c7-4050-a94e-cee683d50419.png.600.0.webp.180.180.webP 180w" sizes="90px" type="image/webP">
+                                                            <img src="https://images.smartshanghai.com.cn/uploads/compressed/2023/05/24/8faf9d7c-52c7-4050-a94e-cee683d50419.png.600.0.webp.90.90.jpg" loading="lazy" class="tag-icon with-loader">
+                                                        </picture>
+                                                                                                                                                </div>
+
+                                            <span>Kids Camps</span>
+                                        </a>
+                                    </li>
+                                                            
+
+
+
+
+
+                            <li class="sub-menu-title">
+                                SMARTSHANGHAI
+                            </li>
+
+                            <li>
+                                <a href="/service/advertise"><span class="icon icon-nav-advertise"></span> <span>Advertise With Us</span></a>
+                            </li>
+
+                            <li>
+                                <a href="/apps/"><span class="icon icon-nav-download-app"></span> <span>Download our App</span></a>
+                            </li>
+
+                            <li>
+                                <a href="/contact/"><span class="icon icon-nav-contact-us"></span> <span>Contact Us</span></a>
+                            </li>
+                            <li>
+                                <a href="/service/about"><span class="icon icon-nav-about-us"></span> <span>About Us</span></a>
+                            </li>
+                            <br>
+
+                        </ul>
+                    </div>
+
+
+
+
+                    <div class="smsh-mobile-userarea-menu">
+                        <div class="bg-shadow"></div>
+                        <ul class="mobile-menu">
+                            <li>
+                                <a class="open-main-menu">
+                                    <b><span>Back To Main Menu</span></b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/messaging/">
+                                    <span class="icon userarea--messaging"></span> <span>Inbox</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/favorites/">
+                                    <span class="icon userarea--favorites"></span> <span>Favorites</span>
+                                </a>
+                            </li>
+
+                            <li class="sub-menu-title">
+                                GENERAL
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/account/">
+                                    <span class="icon userarea--account"></span> <span>Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/alerts/">
+                                    <span class="icon userarea--alerts"></span> <span>Alerts</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/subscriptions/">
+                                    <span class="icon userarea--subscriptions"></span> <span>Subscriptions</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/billing/">
+                                    <span class="icon userarea--billing"></span> <span>Billing</span>
+                                </a>
+                            </li>
+
+                            <li class="sub-menu-title">
+                                My Listings
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/venues/">
+                                    <span class="icon userarea--venues"></span> <span>Venues</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/events/">
+                                    <span class="icon userarea--events"></span> <span>Events</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/jobs/">
+                                    <span class="icon userarea--jobs"></span> <span>Jobs</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/housing/">
+                                    <span class="icon userarea--housing"></span> <span>Housing</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/buyandsell/">
+                                    <span class="icon userarea--buy-and-sell"></span> <span>Buy & Sell</span>
+                                </a>
+                            </li>
+
+                            <li class="sub-menu-title">
+                                Jobs
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/jobs/myapplications/">
+                                    <span class="icon userarea--job-app"></span> <span>My Applications</span>
+                                </a>
+                            </li>
+
+                            <li class="sub-menu-title">
+                                Advertisement
+                            </li>
+                            <li>
+                                <a href="https://www.smartshanghai.com/userarea/campaigns/">
+                                    <span class="icon userarea--campaigns"></span> <span>Campaigns</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="smsh-user-block-menu listings-submission-menu is-dropdown">
+                        <ul>
+                            <li>
+                                <a href="/events/add">
+                                    <div class="icon">
+                                        <span class="icon-blue-calendar"></span>
+                                    </div>
+                                    <div class="txt">
+                                        <h3>
+                                            List an Event
+                                        </h3>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/events/add">
+                                    <div class="icon">
+                                        <span class="icon-blue-deal"></span>
+                                    </div>
+                                    <div class="txt">
+                                        <h3>
+                                            List a Deal
+                                        </h3>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/service/venues">
+                                    <div class="icon">
+                                        <span class="icon-blue-venue"></span>
+                                    </div>
+                                    <div class="txt">
+                                        <h3>
+                                            List Your Venue
+                                        </h3>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/jobs/add">
+                                    <div class="icon">
+                                        <span class="icon-blue-jobs"></span>
+                                    </div>
+                                    <div class="txt">
+                                        <h3>
+                                            List A Job
+                                        </h3>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/buyandsell/add">
+                                    <div class="icon">
+                                        <span class="icon-blue-buyandsell"></span>
+                                    </div>
+                                    <div class="txt">
+                                        <h3>
+                                            Sell Something
+                                        </h3>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/housing/add">
+                                    <div class="icon">
+                                        <span class="icon-blue-housing"></span>
+                                    </div>
+                                    <div class="txt">
+                                        <h3>
+                                            List an Apartment
+                                        </h3>
+                                    </div>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+            <div>
+                <div class="menu-block">
+                    <div class="navigation" id="site-navigation">
+                        <ul id="main-navigation" class="main-navigation main-nav-bind ">
+                                                            <li><a href="/dining/">Dining</a></li>
+                                                            <li><a href="/nightlife/">Nightlife</a></li>
+                                                            <li><a href="/services/">Services</a></li>
+                                                            <li><a href="/events/">Events</a></li>
+                                                            <li><a href="/deals/">Deals</a></li>
+                                                            <li><a href="/housing/">Housing</a></li>
+                                                            <li><a href="/jobs/">Jobs</a></li>
+                                                            <li><a href="/outbound/">Outbound</a></li>
+                                                            <li><a href="/essentials/">SH 101</a></li>
+                                                            <li><a href="/buyandsell/">Buy&Sell</a></li>
+                                                            <li><a href="/education/">Education</a></li>
+                                                            <li><a href="/kids-and-family/">Kids</a></li>
+                                                            <li><a href="/health-wellbeing/">Health</a></li>
+                                                            <li><a href="/listings/beauty/">Beauty</a></li>
+                                                            <li><a href="/listings/shopping/">Shopping</a></li>
+                                                            <li><a href="/properties/">Offices</a></li>
+                                                            <li><a href="/articles/health-and-wellbeing/emergency-rooms-in-the-city">HELP</a></li>
+                                                            <li><a href="/smash/">Gift Shop</a></li>
+                                                            <li><a href="/events/summer-camps/">Kids Camps</a></li>
+                                                        <li class="open-sidenav open-main-menu"><a>...</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            
+
+
+
+
+
+                            <div class="ad-block">
+    <div class="main-column">
+        <p class="ad-notice">Advertisement</p>
+        <div class="img">
+            <a href="https://adsrvr.smartshanghai.com/ads/adclick/17775?url=https://m.epermarket.com/epermarketSub/flylu?id=1433&isShowCN=0&name=EPERKITCHEN&listtype=c&kitchen=0" target="_blank">
+                <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/06/03/762a0b18-86cb-4d0f-8793-27653cb8717f.jpg" class="topBanner">
+            </a>
+        </div>
+    </div>
+</div>
+            
+
+        </div>
+    </div>
+
+    
+
+    <div class="venue-listing-web-header">
+        <div class="site-main-column">
+            <div class="main-block">
+                <h1 class="title">
+                    Roxie
+                </h1>
+                <div class="tags">
+                                        
+                                                                        LGBTQ  |                                                     Bars  |                                                     Jing'an                                                            </div>
+            </div>
+
+
+                    </div>
+    </div>
+
+
+
+
+
+    <div class="list-components venue-listing-2020" itemscope itemtype="http://schema.org/LocalBusiness">
+        <div class="mobile-hide white-box divider">
+            <div class="site-main-column ">
+                
+    <!-- Isac should move the inline CSS to a proper CSS File at some point -->
+    
+
+
+    <div id="closedVenue">
+        <div>
+            <h2>
+                This venue has closed                                            </h2>
+                
+        </div>
+        <div>
+            <a href="/specials/closed-venues/">See all closed venues here</a>
+        </div>
+
+    </div>
+                <div class="venue-filter filter-block">
+
+            <div class="img wechat-qr-code share-venue">
+            <img src="/venue/12919/smshwxmpqr.jpeg?share=true" alt="">
+        </div>
+    
+    <div class="txt">
+
+        <h1 itemprop="name" >
+            <span>Roxie</span>
+        </h1>
+
+                    <div></div>
+        
+        <div class="tag">
+            <div class="left">
+                                                                                            <div class="tag-button">LGBTQ</div>
+                                            <div class="tag-button">Bars</div>
+                                            <div class="tag-button">Jing'an</div>
+                                                </div>
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+            </div>
+        </div>
+
+        
+
+        <div class="site-main-column">
+            
+            <div class="venue-body cutter">
+                <div class="left">
+
+                    <!-- 头部图片 -->
+
+                                        <div class="venue-photo divider v9_ready">
+
+                                                            <div class="main-image-slider ratio3x2">
+    <ul>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/22/ad71c8ee-b0d4-4b2c-bdff-ae1396c465e0.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/22/ad71c8ee-b0d4-4b2c-bdff-ae1396c465e0.jpeg.1200.0.webp 1200w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/22/ad71c8ee-b0d4-4b2c-bdff-ae1396c465e0.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="0" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/31/4478f02c-3704-475e-98f4-a92440a96399.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/31/4478f02c-3704-475e-98f4-a92440a96399.jpeg.1192.0.webp 1192w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/31/4478f02c-3704-475e-98f4-a92440a96399.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="1" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/30/3b5e17ca-e458-4788-9e6a-422deb684e2e.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/30/3b5e17ca-e458-4788-9e6a-422deb684e2e.jpeg.1200.0.webp 1200w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/30/3b5e17ca-e458-4788-9e6a-422deb684e2e.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="2" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/31/0f792af9-ec9b-4987-9a85-e9920871016c.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/31/0f792af9-ec9b-4987-9a85-e9920871016c.jpeg.1200.0.webp 1200w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/31/0f792af9-ec9b-4987-9a85-e9920871016c.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="3" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/22/f1d9850e-1824-4a10-a071-ff423fa94732.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/22/f1d9850e-1824-4a10-a071-ff423fa94732.jpeg.1200.0.webp 1200w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/22/f1d9850e-1824-4a10-a071-ff423fa94732.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="4" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/31/a9294e6f-d604-4a52-90a0-737d224ea9d3.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/31/a9294e6f-d604-4a52-90a0-737d224ea9d3.jpeg.1196.0.webp 1196w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/31/a9294e6f-d604-4a52-90a0-737d224ea9d3.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="5" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+            </ul>
+
+    <div class="pictures-number" data-index="0" data-type="venue-images" data-count="6">
+        <span class="pictures-number-index">1</span>/6
+    </div>
+</div>
+
+                                <div class="add-photo open-add-photo-lightbox">
+                                    <a href="/userarea/venues/images/12919">
+                                        <span class="icon-add-photo venue--icon-add-photo venue--icon-add-photo-dims"></span>Add Photos
+                                    </a>
+                                </div>
+                                                </div>
+                    
+                    <div class="pictures v9_ready">
+                                                    <div class="main-image-slider ratio3x2">
+    <ul>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/22/ad71c8ee-b0d4-4b2c-bdff-ae1396c465e0.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/22/ad71c8ee-b0d4-4b2c-bdff-ae1396c465e0.jpeg.1200.0.webp 1200w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/22/ad71c8ee-b0d4-4b2c-bdff-ae1396c465e0.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="0" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/31/4478f02c-3704-475e-98f4-a92440a96399.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/31/4478f02c-3704-475e-98f4-a92440a96399.jpeg.1192.0.webp 1192w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/31/4478f02c-3704-475e-98f4-a92440a96399.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="1" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/30/3b5e17ca-e458-4788-9e6a-422deb684e2e.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/30/3b5e17ca-e458-4788-9e6a-422deb684e2e.jpeg.1200.0.webp 1200w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/30/3b5e17ca-e458-4788-9e6a-422deb684e2e.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="2" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/31/0f792af9-ec9b-4987-9a85-e9920871016c.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/31/0f792af9-ec9b-4987-9a85-e9920871016c.jpeg.1200.0.webp 1200w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/31/0f792af9-ec9b-4987-9a85-e9920871016c.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="3" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/22/f1d9850e-1824-4a10-a071-ff423fa94732.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/22/f1d9850e-1824-4a10-a071-ff423fa94732.jpeg.1200.0.webp 1200w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/22/f1d9850e-1824-4a10-a071-ff423fa94732.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="4" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+                                <li>
+                <div class="img">
+                    <picture>
+                        <source data-srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/31/a9294e6f-d604-4a52-90a0-737d224ea9d3.jpeg.680.0.webp 680w, https://images.smartshanghai.com/uploads/compressed/2020/07/31/a9294e6f-d604-4a52-90a0-737d224ea9d3.jpeg.1196.0.webp 1196w" sizes="680px" type="image/webp">
+                        <img class="lazy-load" data-src="https://images.smartshanghai.com/uploads/compressed/2020/07/31/a9294e6f-d604-4a52-90a0-737d224ea9d3.jpeg.680.0.jpg" alt="Roxie" title="Picture for Roxie in Shanghai" data-index="5" data-type="venue-images" data-count="6">
+                    </picture>
+                </div>
+            </li>
+            </ul>
+
+    <div class="pictures-number" data-index="0" data-type="venue-images" data-count="6">
+        <span class="pictures-number-index">1</span>/6
+    </div>
+</div>
+                                            </div>
+
+                    <div class="mobile-show">
+                        <div class="venue-filter filter-block">
+
+            <div class="img wechat-qr-code share-venue">
+            <img src="/venue/12919/smshwxmpqr.jpeg?share=true" alt="">
+        </div>
+    
+    <div class="txt">
+
+        <h1 itemprop="name" >
+            <span>Roxie</span>
+        </h1>
+
+                    <div></div>
+        
+        <div class="tag">
+            <div class="left">
+                                                                                            <div class="tag-button">LGBTQ</div>
+                                            <div class="tag-button">Bars</div>
+                                            <div class="tag-button">Jing'an</div>
+                                                </div>
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+                    </div>
+
+
+
+
+                    <!-- tab按钮 -->
+
+                    <ul id="venues-tabs" class="venues-tabs hidden-in-mobile">
+                                                    <li class="active"  data-pane-id="pane-General">
+                                <div>
+                                    <a href="#pane-General">General </a>
+                                </div>
+                            </li>
+                                                    <li   data-pane-id="pane-Articles">
+                                <div>
+                                    <a href="#pane-Articles">Articles </a>
+                                </div>
+                            </li>
+                        
+                        
+                        
+
+                                                                    </ul>
+
+
+
+                    <!-- tab列表 -->
+
+                    <ul data-tab-group-id="venues-tabs" class="venues-groups">
+                        <li class="loaded active" id="pane-General">
+
+
+                                                        <div class="default-venue-box">
+                                <div class="address-block">
+    <div>
+        <div class="address mobile-no-linebreak" itemprop="address">
+            <img class="icon-venue" src="https://images.smartshanghai.com/img/icons/svg/icon-black-venue.svg" alt="">
+            <p>2/F, 359 Kangding Lu,<br />
+near Shaanxi Bei Lu</p>
+            <p>Jing'an District</p>            <p>康定路359号2楼,<br />
+近陕西北路</p>
+        </div>
+        
+        
+                    <div class="metro">
+                <span class="icon venue--icon-subway"></span>10 mins from  <a href="/metro/stations/264/changping-rd">Changping Rd</a>
+
+            </div>
+
+        
+
+
+
+        <div class="buttons">
+            <a class="address-button icon taxi" href="/taxi/12919" target="_blank">Taxi Printout</a>
+            <a class="address-button icon upload share-venue">Share Address</a>
+        </div>
+    </div>
+
+    <div class="map web">
+
+                    <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+                <meta itemprop="latitude" content="31.234381" />
+                <meta itemprop="longitude" content="121.449951" />
+            </div>
+
+            <input type="hidden" id="locsel-lng" value="121.449951">
+            <input type="hidden" id="locsel-lat" value="31.234381">
+
+            <div id="venue-map-viewport"></div>
+            </div>
+</div>
+                            </div>
+                            
+                            <ul id="venues-tabs" class="venues-tabs show-on-mobile">
+                                                                    <li class="active"  data-pane-id="pane-General">
+                                        <div>
+                                            <a href="#pane-General">General </a>
+                                        </div>
+                                    </li>
+                                                                    <li   data-pane-id="pane-Articles">
+                                        <div>
+                                            <a href="#pane-Articles">Articles </a>
+                                        </div>
+                                    </li>
+                                
+                                
+                                
+
+                                                                                            </ul>
+
+
+
+
+
+                            <div class="default-venue-box info-block">
+                                
+
+
+
+
+<div class="info-list-block venue-details-block">
+
+                                                    
+
+    
+
+    
+    
+    
+
+    <div>
+        <span class="icon venue--icon-phone venue--icon-phone-dims"></span>
+        <div>
+            <span itemprop="telephone">3159 3600</span>        </div>
+    </div>
+            
+                
+    
+    
+    
+
+    
+
+            <div>
+            <span class="icon venue--icon-clock venue--icon-clock-dims"></span>
+            <div>
+                Daily, 6pm-2am
+                            </div>
+
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+                            
+
+
+
+
+                            <div class="default-venue-box description-block divider">
+
+                                                                    <div class="description-header">
+                                        <h3>Editor’s Description</h3>
+                                        <div class="modify-info">
+                                            Last updated: Jul 15, 2024
+                                        </div>
+                                    </div>
+                                    <div class="description" itemprop="description">
+                                                                                    One of Shanghai's only lesbian bars, dimly lit bar/lounge space Roxie arrived in 2015 via a Dutch gal who goes by Ting Ting, who also owns metal bar Inferno. During the week, Roxie is a chill spot for relaxing and conversing with friends, but on the weekend it tends to get packed with a bit of dancing once people have enough drinks. The place isn't huge, so it can get pretty intimate. As a lesbian bar, it has a nice mix of genders, and has been the only lala bar where gay boys are welcome as well. It’s in a great location, with The Shed just across the street and Uva not too far away. Cocktails run 45rmb for a rum and coke to 75rmb for a Long Island, and bartenders are well trained. 
+                                        
+                                    </div>
+                                
+
+
+
+
+                                <div class="tags">
+                                                                                                                <a href="/listings/nightlife/gay/" class="tag-button">LGBTQ</a>
+                                                                            <a href="/nightlife/" class="tag-button">Nightlife</a>
+                                                                            <a href="/listings/nightlife/bars/" class="tag-button">Bars</a>
+                                                                            <a href="" class="tag-button">LGBT Bars</a>
+                                                                            <a href="" class="tag-button">Jing'an</a>
+                                                                    </div>
+                            </div>
+
+
+                            
+
+                            
+
+
+
+
+
+                            
+
+
+
+                            
+
+                            
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!-- Locations map-->
+
+                            
+
+
+                            
+
+                            
+                            <!-- education pricing -->
+
+                            
+                        </li>
+
+                        
+
+                        
+
+
+                        
+
+
+                        
+
+
+
+
+
+
+
+
+                                                    <div class="default-venue-box info-block">
+                                <div class="info-header">
+                                    <div style="min-height: 55px; min-width: 70px;">
+                                        <span class="number">
+                                            <img class="bg" src="/img/venue/favorites_count_icon.svg" alt="">
+                                            <div class="favorites-count">13</div>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <h3>Users Like This Venue</h3>
+                                        <p style="font-size: 13px; color: #7e7e7e;">Users that added this venue to their Favorites</p>
+                                    </div>
+                                </div>
+
+
+                                                                    <br>
+                                
+
+                                
+                                <div>
+                                    <button class="button default2020 blue open-recommend-lightbox">Recommend Roxie</button>
+
+
+                                </div>
+
+                            </div>
+                        
+
+                        <li class="loaded" id="pane-Events">
+                            <div class="default-venue-box">
+                                <div class="block-header">
+                                    <h3>Events & Deals</h3>
+                                </div>
+
+                                                                    <div class="noResults">
+                                        <p>Currently no upcoming events or ongoing deals listed for this venue</p>
+
+                                    </div>
+                                
+
+
+                                <div class="hidden" id="archivedEvents">
+                                    <ul class="default-lists events-list-2022">
+
+    </ul>
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="loaded" id="pane-Articles">
+                            <div class="default-venue-box">
+                                <div class="block-header">
+                                    <h3>Articles</h3>
+                                </div>
+
+                                                                    <ul class="default-lists articles-list-2020">
+            <li class="divider">
+            <a href="https://www.smartshanghai.com/buzz/arts/well-that-sucks-last-call-for-yuyintang-and-roxie">
+                <div class="box-header">
+                    <div class="left img">
+                                                                                                        <picture>
+                                <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2024/06/18/ce9d88be-f254-4ff3-9969-04cdc5ac7576.jpg.225.150.webp 225w, https://images.smartshanghai.com.cn/uploads/compressed/2024/06/18/ce9d88be-f254-4ff3-9969-04cdc5ac7576.jpg.450.300.webp 400w" sizes="225px" type="image/webP">
+                                <img src="https://images.smartshanghai.com.cn/uploads/compressed/2024/06/18/ce9d88be-f254-4ff3-9969-04cdc5ac7576.jpg.225.150.jpg" width="225" height="150" alt="Well That Sucks: Last Call for Yuyintang and Roxie ">
+                            </picture>
+                        
+
+                    </div>
+                    <div class="right">
+                        <p class="box-tag">
+                            | Arts & Stage |                        </p>
+                        <h3>
+                            Well That Sucks: Last Call for Yuyintang and Roxie 
+                        </h3>
+                        <div class="description">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+            <li class="divider">
+            <a href="https://www.smartshanghai.com/articles/gay/the-essential-guide-to-lgbtq-life-in-shanghai">
+                <div class="box-header">
+                    <div class="left img">
+                                                                                                        <picture>
+                                <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2020/06/10/685efcb6-a9e5-477f-9296-e8e8345f4042.png.225.150.webp 225w, https://images.smartshanghai.com.cn/uploads/compressed/2020/06/10/685efcb6-a9e5-477f-9296-e8e8345f4042.png.450.300.webp 400w" sizes="225px" type="image/webP">
+                                <img src="https://images.smartshanghai.com.cn/uploads/compressed/2020/06/10/685efcb6-a9e5-477f-9296-e8e8345f4042.png.225.150.jpg" width="225" height="150" alt="The Essential Guide to LGBTQ+ Life in Shanghai">
+                            </picture>
+                        
+
+                    </div>
+                    <div class="right">
+                        <p class="box-tag">
+                            | LGBTQ |                        </p>
+                        <h3>
+                            The Essential Guide to LGBTQ+ Life in Shanghai
+                        </h3>
+                        <div class="description">
+                            Everything you need to know about the best city in China to be LGBTQ+.
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+            <li class="divider">
+            <a href="https://www.smartshanghai.com/articles/gay/state-of-gay-nightlife-in-Shanghai-2020">
+                <div class="box-header">
+                    <div class="left img">
+                                                                                                        <picture>
+                                <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2020/06/09/e241492d-ea84-4ab9-b6dc-306a734c8d4f.jpeg.225.150.webp 225w, https://images.smartshanghai.com.cn/uploads/compressed/2020/06/09/e241492d-ea84-4ab9-b6dc-306a734c8d4f.jpeg.450.300.webp 400w" sizes="225px" type="image/webP">
+                                <img src="https://images.smartshanghai.com.cn/uploads/compressed/2020/06/09/e241492d-ea84-4ab9-b6dc-306a734c8d4f.jpeg.225.150.jpg" width="225" height="150" alt="This is the State of Gay Nightlife in Shanghai">
+                            </picture>
+                        
+
+                    </div>
+                    <div class="right">
+                        <p class="box-tag">
+                            | LGBTQ |                        </p>
+                        <h3>
+                            This is the State of Gay Nightlife in Shanghai
+                        </h3>
+                        <div class="description">
+                            Updated for 2020. We. Are. Family!
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+            <li class="divider">
+            <a href="https://www.smartshanghai.com/articles/community/heres-what-shanghaipride-2020-is-going-to-look-like">
+                <div class="box-header">
+                    <div class="left img">
+                                                                                                        <picture>
+                                <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2020/06/08/9cede883-87e2-4ca1-a83b-495086a02603.jpeg.225.150.webp 225w, https://images.smartshanghai.com.cn/uploads/compressed/2020/06/08/9cede883-87e2-4ca1-a83b-495086a02603.jpeg.450.300.webp 400w" sizes="225px" type="image/webP">
+                                <img src="https://images.smartshanghai.com.cn/uploads/compressed/2020/06/08/9cede883-87e2-4ca1-a83b-495086a02603.jpeg.225.150.jpg" width="225" height="150" alt="Here's What ShanghaiPRIDE 2020 Is Going To Look Like">
+                            </picture>
+                        
+
+                    </div>
+                    <div class="right">
+                        <p class="box-tag">
+                            | Community |                        </p>
+                        <h3>
+                            Here's What ShanghaiPRIDE 2020 Is Going To Look Like
+                        </h3>
+                        <div class="description">
+                            What's on the agenda for this year's celebration of inclusivity, diversity and love?
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+            <li class="divider">
+            <a href="https://www.smartshanghai.com/articles/nightlife/lgbt-bars-in-shanghai">
+                <div class="box-header">
+                    <div class="left img">
+                                                                                                        <picture>
+                                <source srcset="https://images.smartshanghai.com.cn/uploads/compressed/2021/07/14/282a1779-e343-40c7-a37d-a36c40371b31.jpeg.225.150.webp 225w, https://images.smartshanghai.com.cn/uploads/compressed/2021/07/14/282a1779-e343-40c7-a37d-a36c40371b31.jpeg.450.300.webp 400w" sizes="225px" type="image/webP">
+                                <img src="https://images.smartshanghai.com.cn/uploads/compressed/2021/07/14/282a1779-e343-40c7-a37d-a36c40371b31.jpeg.225.150.jpg" width="225" height="150" alt="LGBT Bars in Shanghai">
+                            </picture>
+                        
+
+                    </div>
+                    <div class="right">
+                        <p class="box-tag">
+                            | Nightlife |                        </p>
+                        <h3>
+                            LGBT Bars in Shanghai
+                        </h3>
+                        <div class="description">
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+    </ul>
+                                                            </div>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+
+                        
+                                                    <li class="loaded">
+                                <div class="default-venue-box default-box black-line-header box-row-gap">
+                                <div class="block-header">
+                                    <p class="sponsored-title">Sponsored Suggestions:</p>
+                                </div>
+                                <ul class="default-lists venues-list-2020">
+                                                                                
+<li class="divider  ">
+            
+
+    
+        <div class="header  article box-header full-img">
+
+
+
+
+            <div class="left">
+                                    <div class="premium-tag">
+                        <img src="https://images.smartshanghai.com/img/icons/svg/icon-premium.svg" alt="">Premium
+                    </div>
+                
+                
+                
+
+
+
+
+
+                <h3 class="">
+                    <a href="https://www.smartshanghai.com/venue/9765/jingan_shangri_la">
+                        Jing An Shangri-La, Shanghai
+                    </a>
+                </h3>
+
+
+                
+                
+                <div class="address">
+                    <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-black-venue.svg" alt="">
+                    <div>
+                                                                                    <p>1218 Yan'an Zhong Lu,<br /> near Tongren Lu</p>
+                                <p>延安中路1218号, 近铜仁路</p>
+                                                    
+                    </div>
+                </div>
+                <div class="info-list">
+                    <div class="smsh-blue">
+                        <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-phone.svg" alt="">2203 8888
+                    </div>
+                </div>
+
+                            </div>
+
+                        <div class="right img">
+                
+
+                    <ul class="listings zoumadeng for circular-skin">
+                        
+                                            </ul>
+                            </div>
+                    </div>
+
+
+            <div class="description">
+            Five-star, classic luxury hotel in the heart of Jing'an's financial district, with more than 500 rooms and six restaurants. Rooms are on floors 30 to 59, all with heated marble floors in the bathrooms...
+        </div>
+    
+    <div class="tags">
+            </div>
+
+    
+    
+</li>
+
+
+                                                                                
+<li class="divider  ">
+            
+
+    
+        <div class="header  article box-header full-img">
+
+
+
+
+            <div class="left">
+                                    <div class="premium-tag">
+                        <img src="https://images.smartshanghai.com/img/icons/svg/icon-premium.svg" alt="">Premium
+                    </div>
+                
+                
+                
+
+
+
+
+
+                <h3 class="">
+                    <a href="https://www.smartshanghai.com/venue/33513/la_barra">
+                        La Barra
+                    </a>
+                </h3>
+
+
+                
+                
+                <div class="address">
+                    <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-black-venue.svg" alt="">
+                    <div>
+                                                                                    <p>No. 110, 319 Jiaozhou Lu,<br /> near Wuding Lu</p>
+                                <p>静安区胶州路319弄110号， 近武定路</p>
+                                                    
+                    </div>
+                </div>
+                <div class="info-list">
+                    <div class="smsh-blue">
+                        <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-phone.svg" alt="">158 0030 7744, 182 0212 1296
+                    </div>
+                </div>
+
+                            </div>
+
+                        <div class="right img">
+                
+
+                    <ul class="listings zoumadeng for circular-skin">
+                        
+                                            </ul>
+                            </div>
+                    </div>
+
+
+            <div class="description">
+            La Barra Bistro has evolved from its previous concept into a more casual, approachable, and cool destination. With sleek décor, a well-curated menu, and an inviting atmosphere, this two-level space f...
+        </div>
+    
+    <div class="tags">
+            </div>
+
+    
+    
+</li>
+
+
+                                                                                
+<li class="divider  ">
+            
+
+    
+        <div class="header  article box-header full-img">
+
+
+
+
+            <div class="left">
+                                    <div class="premium-tag">
+                        <img src="https://images.smartshanghai.com/img/icons/svg/icon-premium.svg" alt="">Premium
+                    </div>
+                
+                
+                
+
+
+
+
+
+                <h3 class="">
+                    <a href="https://www.smartshanghai.com/venue/32167/lagom">
+                        LAGOM
+                    </a>
+                </h3>
+
+
+                
+                
+                <div class="address">
+                    <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-black-venue.svg" alt="">
+                    <div>
+                                                                                    <p>6/F, Star Plaza,<br /> 105 Wanhangdu Lu, <br /> near West Beijing Lu</p>
+                                <p>静安区万航渡路105号静安星座6楼, 近北京西路</p>
+                                                    
+                    </div>
+                </div>
+                <div class="info-list">
+                    <div class="smsh-blue">
+                        <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-phone.svg" alt="">133 9137 1135
+                    </div>
+                </div>
+
+                            </div>
+
+                        <div class="right img">
+                
+
+                    <ul class="listings zoumadeng for circular-skin">
+                        
+                                            </ul>
+                            </div>
+                    </div>
+
+
+            <div class="description">
+            A laid-back small rooftop bar just behind Jing'an Temple with a bit of a camping / vintage aesthetic and a Beijing vibe. It's west-facing, so you got some nice sunset views there. The drinks' selectio...
+        </div>
+    
+    <div class="tags">
+            </div>
+
+    
+    
+</li>
+
+
+                                                                                
+<li class="divider  ">
+            
+
+    
+        <div class="header  article box-header full-img">
+
+
+
+
+            <div class="left">
+                                    <div class="premium-tag">
+                        <img src="https://images.smartshanghai.com/img/icons/svg/icon-premium.svg" alt="">Premium
+                    </div>
+                
+                
+                
+
+
+
+
+
+                <h3 class="">
+                    <a href="https://www.smartshanghai.com/venue/31661/le_baron">
+                        Le Baron
+                    </a>
+                </h3>
+
+
+                
+                
+                <div class="address">
+                    <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-black-venue.svg" alt="">
+                    <div>
+                                                                                    <p>2/F, 291 Fumin Lu,<br /> near Changle Lu</p>
+                                <p>富民路291号2楼， 近长乐路</p>
+                                                    
+                    </div>
+                </div>
+                <div class="info-list">
+                    <div class="smsh-blue">
+                        <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-phone.svg" alt="">176 2131 5701
+                    </div>
+                </div>
+
+                            </div>
+
+                        <div class="right img">
+                
+
+                    <ul class="listings zoumadeng for circular-skin">
+                        
+                                            </ul>
+                            </div>
+                    </div>
+
+
+            <div class="description">
+            Le Baron is Shanghai’s see-and-be-seen nightlife spot for the fashion-forward and VIP-adjacent. The glossy Paris-imported club is tucked inside a discreet entrance near Found 158, with a slick inter...
+        </div>
+    
+    <div class="tags">
+            </div>
+
+    
+    
+</li>
+
+
+                                                                                
+<li class="divider  ">
+            
+
+    
+        <div class="header  article box-header full-img">
+
+
+
+
+            <div class="left">
+                                    <div class="premium-tag">
+                        <img src="https://images.smartshanghai.com/img/icons/svg/icon-premium.svg" alt="">Premium
+                    </div>
+                
+                
+                
+
+
+
+
+
+                <h3 class="">
+                    <a href="https://www.smartshanghai.com/venue/23577/chez_jojo_wine_and_terrace_fumin_lu">
+                        Chez JOJO Wine & Terrace
+                    </a>
+                </h3>
+
+
+                
+                
+                <div class="address">
+                    <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-black-venue.svg" alt="">
+                    <div>
+                                                                                    <p>3/F, A Mansion, <br /> 291 Fumin Lu,<br /> near Changle Lu</p>
+                                <p>悟锦大楼3楼, 富民路291号, 近长乐路</p>
+                                                    
+                    </div>
+                </div>
+                <div class="info-list">
+                    <div class="smsh-blue">
+                        <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-phone.svg" alt="">5436 3662
+                    </div>
+                </div>
+
+                            </div>
+
+                        <div class="right img">
+                
+
+                    <ul class="listings zoumadeng for circular-skin">
+                        
+                                            </ul>
+                            </div>
+                    </div>
+
+
+            <div class="description">
+            This is the third restaurant from the Chez JOJO serving up French food like homemade foie gras, steak and sharing plates. What makes it different re from the location on Yongjia Lu is the larger space...
+        </div>
+    
+    <div class="tags">
+            </div>
+
+    
+    
+</li>
+
+
+                                                                                
+<li class="divider  ">
+            
+
+    
+        <div class="header  article box-header full-img">
+
+
+
+
+            <div class="left">
+                                    <div class="premium-tag">
+                        <img src="https://images.smartshanghai.com/img/icons/svg/icon-premium.svg" alt="">Premium
+                    </div>
+                
+                
+                
+
+
+
+
+
+                <h3 class="">
+                    <a href="https://www.smartshanghai.com/venue/21711/aesthetic_skin_spa_nanjing_xi_lu">
+                        Aesthetic Skin Spa
+                    </a>
+                </h3>
+
+
+                
+                
+                <div class="address">
+                    <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-black-venue.svg" alt="">
+                    <div>
+                                                                                    <p>Unit 4106, 41/F, Bldg A, <br /> 580 Nanjing Xi Lu, <br /> near Chengdu Bei Lu</p>
+                                <p>南京西路580号 仲益大厦A座41楼4106室,  近成都北路</p>
+                                                    
+                    </div>
+                </div>
+                <div class="info-list">
+                    <div class="smsh-blue">
+                        <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-phone.svg" alt="">186 1689 1469
+                    </div>
+                </div>
+
+                            </div>
+
+                        <div class="right img">
+                
+
+                    <ul class="listings zoumadeng for circular-skin">
+                        
+                                            </ul>
+                            </div>
+                    </div>
+
+
+            <div class="description">
+            Aesthetic Skin Spa is a boutique skin spa from Hong Kong. They provide a relaxing spa environment equipped with advanced non-invasive aesthetic equipments that are used in professional medical centers...
+        </div>
+    
+    <div class="tags">
+            </div>
+
+    
+    
+</li>
+
+
+                                                                                
+<li class="divider  ">
+            
+
+    
+        <div class="header  article box-header full-img">
+
+
+
+
+            <div class="left">
+                                    <div class="premium-tag">
+                        <img src="https://images.smartshanghai.com/img/icons/svg/icon-premium.svg" alt="">Premium
+                    </div>
+                
+                
+                
+
+
+
+
+
+                <h3 class="">
+                    <a href="https://www.smartshanghai.com/venue/13562/_the_fellas">
+                         The Fellas
+                    </a>
+                </h3>
+
+
+                
+                
+                <div class="address">
+                    <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-black-venue.svg" alt="">
+                    <div>
+                                                                                    <p>7/F, 7 Yan'an Dong Lu, <br /> near Zhongshan Dong Yi Lu</p>
+                                <p>延安东路7号7楼, 近中山东一路</p>
+                                                    
+                    </div>
+                </div>
+                <div class="info-list">
+                    <div class="smsh-blue">
+                        <img class="icon" src="https://images.smartshanghai.com/img/icons/svg/icon-phone.svg" alt="">6316 9119, 136 2166 4109
+                    </div>
+                </div>
+
+                            </div>
+
+                        <div class="right img">
+                
+
+                    <ul class="listings zoumadeng for circular-skin">
+                        
+                                            </ul>
+                            </div>
+                    </div>
+
+
+            <div class="description">
+            Formerly Shen, this rooftop bar just off the Bund is now part of the Goodfellas family. Since they've taken over, little has changed, other than the name and the fact that pizzas are now on the menu. ...
+        </div>
+    
+    <div class="tags">
+            </div>
+
+    
+    
+</li>
+
+
+                                                                    </ul>
+                            </div>
+                            </li>
+                        
+
+                        
+
+
+                    </ul>
+
+
+
+                </div>
+
+                <div class="right">
+                    
+                        <div class="bigboxes">
+                            <p class="label">ADVERTISEMENT</p>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17769?url=https://www.smartshanghai.com/event/79191">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/05/23/1ac4ad1d-24a9-4955-ad18-b1efd608a703.png" class="bigBox" width="300" height="260">
+    </a>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17064?url=https://www.smartshanghai.com/smash/">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2022/06/24/84d47355-5fdd-4f51-b22e-631ba85fc9ac.gif" class="bigBox" width="300" height="260">
+    </a>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17750?url=https://www.smartshanghai.com/event/72866">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/04/28/9ebb4911-b6b8-4af5-8bce-603399f5249f.jpg" class="bigBox" width="300" height="260">
+    </a>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17739?url=https://www.sauder.ubc.ca/programs/masters-degrees/ubc-international-mba?utm_campaign=2025-RHL-IMBA-SmartShanghai-WebsiteVisits&utm_medium=paid_display&utm_source=smartshanghai&utm_content=scholarship">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/06/04/2e9aa94b-e486-440f-a7f4-9c53deb007b5.gif" class="bigBox" width="300" height="260">
+    </a>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17773?url=https://www.smartshanghai.com/venue/33983/rossignol_mountain_sports_academy_msa">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/06/03/e1b1815e-ec6e-4a50-a8dc-cc2bb65a4672.jpg" class="bigBox" width="300" height="260">
+    </a>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17767?url=">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/05/22/02627e57-9ce7-4674-a9ca-ae6295cbc61a.gif" class="bigBox" width="300" height="260">
+    </a>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17761?url=https://www.smartshanghai.com/venue/31140/enjoy_relocation">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/05/15/12f49340-852e-4e97-a843-ada9dd0ff5ed.jpg" class="bigBox" width="300" height="260">
+    </a>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17777?url=https://www.smartshanghai.com/event/79323">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/06/04/166f6d36-804c-49f7-930e-4d07d8d3955a.jpg" class="bigBox" width="300" height="260">
+    </a>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17776?url=https://www.smartshanghai.com/venue/33988/asr_motorsport_racing_team">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/06/03/2b9060ed-ffa2-4e98-9672-4234f1633ef1.gif" class="bigBox" width="300" height="260">
+    </a>
+    <a href="https://adsrvr.smartshanghai.com/ads/adclick/17768?url=https://methodmma.club">
+        <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/05/23/467b379b-5fa7-416f-86a7-472ceb00e3f9.jpg" class="bigBox" width="300" height="260">
+    </a>
+                        </div>
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 社交平台lightbox -->
+
+    <div class="share-lightbox hidden">
+
+    <div class="wechat">
+        <h3>
+            <span class="icon icon-wechat-original icon-wechat-original-dims"></span>Scan to share on WeChat
+        </h3>
+                    <img class="wechat-qr" src="/venue/12919/smshwxmpqr.jpeg?share=true" alt="" loading="lazy">
+            </div>
+
+
+    <div class="buttons">
+        <p>Share Link:</p>
+                    <a class="share-button" href="http://www.facebook.com/share.php?u=https%3A%2F%2Fwww.smartshanghai.com%2Fvenue%2F12919%2Froxie">
+                <span class="icon venue--icon-facebook venue--icon-facebook-dims"></span>Facebook
+            </a>
+            <a class="share-button" href="http://twitter.com/home?status=https%3A%2F%2Fwww.smartshanghai.com%2Fvenue%2F12919%2Froxie">
+                <span class="icon venue--icon-twitter venue--icon-twitter-dims"></span>Twitter
+            </a>
+            <a class="share-button" href="http://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.smartshanghai.com%2Fvenue%2F12919%2Froxie&language=en&title=Roxie">
+                <span class="icon venue--icon-weibo venue--icon-weibo-dims"></span>Weibo
+            </a>
+            </div>
+    <div class="label">
+        The link to this listing:
+    </div>
+    <div class="share-link">
+        <input class="copy-val" readonly="readonly" name="" id="" value="https://www.smartshanghai.com/venue/12919/roxie">
+        <div class="copy-link"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        $('.share-lightbox .copy-link').on('click', function () {
+            $('.share-lightbox .copy-val').select();
+
+            try {
+                var state = document.execCommand("copy");
+            }
+            catch(err){
+                var state = false;
+            }
+            if(state){
+                alert("Copy Completed")
+            }else{
+                alert("Copy Failed")
+            }
+        })
+    })
+</script>
+
+    <!-- 地图lightbox -->
+
+    <div class="map-lightbox">
+    <div class="buttons">
+                    <a href="?provider=google" class="map-button google-map ">Use Google Maps</a>
+            <a href="?provider=gaode" class="map-button gaode-map ">Use Gaode Maps</a>
+            </div>
+
+            <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+            <meta itemprop="latitude" content="31.234381" />
+            <meta itemprop="longitude" content="121.449951" />
+        </div>
+
+        <input type="hidden" id="locsel-lng" value="121.449951">
+        <input type="hidden" id="locsel-lat" value="31.234381">
+
+        <div id="venue-map-lightbox"></div>
+    
+    <div class="close" style="position: absolute; top: 20px; right: 20px">
+        <img src="https://images.smartshanghai.com/img/housing2/icon_post.svg" alt="" style="width: 30px;transform: rotate(45deg);border-radius: 15px;box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);">
+    </div>
+</div>
+
+    <!-- 图片lightbox -->
+
+            <div id="venue-list-tupian-lightbox" class="header-photo hidden">
+            <div class="venue-images-titles">
+                                    <div class="title venue-images" data-title="venueImages" data-type="venue-images" data-count="6">
+                        Venue Images(6)
+                    </div>
+                                            </div>
+
+            <ul class="listings zoumadeng for venue-images">
+                                    <li>
+                        <div class="img">
+                            <picture>
+                                                            <source srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/22/ad71c8ee-b0d4-4b2c-bdff-ae1396c465e0.jpeg.800.0.webp 800w, https://images.smartshanghai.com/uploads/compressed/2020/07/22/ad71c8ee-b0d4-4b2c-bdff-ae1396c465e0.jpeg.1600.0.webp 1600w" sizes="800px" type="image/webp">
+                                <img src="https://images.smartshanghai.com/uploads/compressed/2020/07/22/ad71c8ee-b0d4-4b2c-bdff-ae1396c465e0.jpeg.800.0.jpg" alt="Roxie on SmartShanghai" class="lightboxable lazy-load" loading='lazy'>
+                            </picture>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="img">
+                            <picture>
+                                                            <source srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/31/4478f02c-3704-475e-98f4-a92440a96399.jpeg.800.0.webp 800w, https://images.smartshanghai.com/uploads/compressed/2020/07/31/4478f02c-3704-475e-98f4-a92440a96399.jpeg.1600.0.webp 1600w" sizes="800px" type="image/webp">
+                                <img src="https://images.smartshanghai.com/uploads/compressed/2020/07/31/4478f02c-3704-475e-98f4-a92440a96399.jpeg.800.0.jpg" alt="Roxie on SmartShanghai" class="lightboxable lazy-load" loading='lazy'>
+                            </picture>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="img">
+                            <picture>
+                                                            <source srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/30/3b5e17ca-e458-4788-9e6a-422deb684e2e.jpeg.800.0.webp 800w, https://images.smartshanghai.com/uploads/compressed/2020/07/30/3b5e17ca-e458-4788-9e6a-422deb684e2e.jpeg.1600.0.webp 1600w" sizes="800px" type="image/webp">
+                                <img src="https://images.smartshanghai.com/uploads/compressed/2020/07/30/3b5e17ca-e458-4788-9e6a-422deb684e2e.jpeg.800.0.jpg" alt="Roxie on SmartShanghai" class="lightboxable lazy-load" loading='lazy'>
+                            </picture>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="img">
+                            <picture>
+                                                            <source srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/31/0f792af9-ec9b-4987-9a85-e9920871016c.jpeg.800.0.webp 800w, https://images.smartshanghai.com/uploads/compressed/2020/07/31/0f792af9-ec9b-4987-9a85-e9920871016c.jpeg.1600.0.webp 1600w" sizes="800px" type="image/webp">
+                                <img src="https://images.smartshanghai.com/uploads/compressed/2020/07/31/0f792af9-ec9b-4987-9a85-e9920871016c.jpeg.800.0.jpg" alt="Roxie on SmartShanghai" class="lightboxable lazy-load" loading='lazy'>
+                            </picture>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="img">
+                            <picture>
+                                                            <source srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/22/f1d9850e-1824-4a10-a071-ff423fa94732.jpeg.800.0.webp 800w, https://images.smartshanghai.com/uploads/compressed/2020/07/22/f1d9850e-1824-4a10-a071-ff423fa94732.jpeg.1600.0.webp 1600w" sizes="800px" type="image/webp">
+                                <img src="https://images.smartshanghai.com/uploads/compressed/2020/07/22/f1d9850e-1824-4a10-a071-ff423fa94732.jpeg.800.0.jpg" alt="Roxie on SmartShanghai" class="lightboxable lazy-load" loading='lazy'>
+                            </picture>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="img">
+                            <picture>
+                                                            <source srcset="https://images.smartshanghai.com/uploads/compressed/2020/07/31/a9294e6f-d604-4a52-90a0-737d224ea9d3.jpeg.800.0.webp 800w, https://images.smartshanghai.com/uploads/compressed/2020/07/31/a9294e6f-d604-4a52-90a0-737d224ea9d3.jpeg.1600.0.webp 1600w" sizes="800px" type="image/webp">
+                                <img src="https://images.smartshanghai.com/uploads/compressed/2020/07/31/a9294e6f-d604-4a52-90a0-737d224ea9d3.jpeg.800.0.jpg" alt="Roxie on SmartShanghai" class="lightboxable lazy-load" loading='lazy'>
+                            </picture>
+                        </div>
+                    </li>
+                            </ul>
+
+            
+            <div class="images-index">
+                <div class="images-index-now">12</div>/<div class="images-index-count">6</div>
+            </div>
+
+            <div class="close" style="position: absolute; top: 20px; right: 20px">
+                <img src="https://images.smartshanghai.com/img/housing2/icon_post.svg" alt="" style="width: 30px;transform: rotate(45deg);border-radius: 15px;box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);">
+            </div>
+        </div>
+    
+    <!-- menu photos lightbox -->
+
+    
+
+    <div id="add-picture-lightbox" class="lightbox">
+
+
+        <div class="simple-tabs">
+
+            <ul class="tabs">
+                                    <li><a class="tab active" data-tab="weChat">WeChat</a></li>
+                                <li><a class="tab " data-tab="smshApp">SmartShanghai App</a></li>
+
+            </ul>
+
+                            <div id="weChat" class="tab-content active">
+                    <div class="qr-img">
+                        <img src="/venue/12919/smshwxmpqr.jpeg?share=true12919" loading="lazy">
+                    </div>
+                    <div>
+                        <div class="txt blue bold">
+                            Scan this Code
+                        </div>
+                        <div class="txt">
+                            with WeChat
+                        </div>
+                        <div class="txt bold" id="appPopupPurposeText">
+                            to  upload pictures
+                        </div>
+                        <br><br>
+
+                    </div>
+
+                </div>
+            
+            <div id="smshApp" class="tab-content ">
+                <div class="qr-img">
+                    <img src="/uploads/venues/appqr/12919.png">
+                </div>
+                <div>
+                    <div class="txt blue bold">
+                        Scan this Code
+                    </div>
+                    <div class="txt">
+                        with the <a href="/apps/">SmartShanghai App</a> to
+                    </div>
+                    <div class="txt bold" id="appPopupPurposeText2">
+                        to upload pictures
+                    </div>
+                    <div class="gary">
+                        SmartShanghai Apps from version 5.2 Only.
+                    </div>
+                </div>
+                <div class="bottom">
+                    <img class="scan" src="/img/lightbox/scan.png" alt="">
+                    <img class="here" src="/img/lightbox/here.png" alt="">
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+</div>
+
+
+
+
+    <div id="site-footer">
+
+            <div class="ad-block">
+    <div class="main-column">
+        <p class="ad-notice">Advertisement</p>
+        <div class="img">
+            <a href="https://adsrvr.smartshanghai.com/ads/adclick/17775?url=https://m.epermarket.com/epermarketSub/flylu?id=1433&isShowCN=0&name=EPERKITCHEN&listtype=c&kitchen=0" target="_blank">
+                <img src="https://adsrvr.smartshanghai.com/uploads/repository/2025/06/03/762a0b18-86cb-4d0f-8793-27653cb8717f.jpg" class="topBanner">
+            </a>
+        </div>
+    </div>
+</div>
+    
+    
+    <div class="footer-ground">
+        <div class="site-main-column">
+            <div class="about-us">
+                <div class="logo">
+                    <a href="https://www.smartshanghai.com">
+                        <div class="footer--smsh-logo-write footer--smsh-logo-write-dims"></div>
+                    </a>
+                </div>
+                <p>
+                    SmartShanghai.com is the longest-running English online magazine in Shanghai. We are an independent media publication created by a team of long-term, opinionated, and knowledgeable writers. We provide English-speaking residents and visitors with a curated guide to explore and celebrate the best of Shanghai.
+                </p>
+            </div>
+            <div class="navigate">
+                <h2>
+                    NAVIGATE
+                </h2>
+                <ul>
+                    <li><a href="https://www.smartshanghai.com/service/about">About Us</a></li>
+                    <li><a href="https://www.smartshanghai.com/contact">Contact Us</a></li>
+                    <li><a href="https://www.smartshanghai.com/mediakit">Advertise</a></li>
+                    <li><a href="https://www.smartshanghai.com/faq">FAQ</a></li>
+                    <li><a href="https://www.smartshanghai.com/privacy">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="get-listed">
+                <h2>
+                    GET LISTED
+                </h2>
+                <ul>
+                    <li><a href="https://www.smartshanghai.com/events/add">List An Event</a> on our <a href="https://www.smartshanghai.com/events/" class="gray">curated editorial events page</a></li>
+                    <li><a href="https://www.smartshanghai.com/jobs/add">Post a Job</a> on <a href="https://www.smartshanghai.com/jobs/" class="gray">Shanghai's best English jobs boards</a></li>
+                    <li><a href="https://www.smartshanghai.com/buyandsell/add">Sell Something</a> using our <a href="https://www.smartshanghai.com/buyandsell/" class="gray">Buy & Sell classifieds</a></li>
+                    <li><a href="https://www.smartshanghai.com/service/venues">List Your Business</a> in <a href="https://www.smartshanghai.com/listings/" class="gray">Shanghai's largest English directory</a></li>
+                    <li><a href="https://www.smartshanghai.com/mediakit/ticketing">Sell Tickets</a> using our <a href="https://www.smartshanghai.com/events/" class="gray">SmartTicket ticketing service</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer-copyright">
+        <div class="site-main-column">
+            <div class="weblink">
+                <h2>
+                    FOLLOW US
+                </h2>
+                <ul class="sharing-buttons">
+        
+        <li>
+            <a href="https://www.smartshanghai.com/wechat/">
+                <div class="footer--wechat footer--wechat-dims"></div>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/smartshanghai/" target="_blank">
+                <div class="footer--instagram footer--instagram-dims"></div>
+            </a>
+        </li>
+        <li>
+            <a href="http://www.facebook.com/smartshanghai" target="_blank">
+                <div class="footer--facebook footer--instagram-dims"></div>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.xiaohongshu.com/user/profile/6433a3ed000000002a0081c3" target="_blank">
+                <div class="footer-xiaohongsu">
+                    <img src="/img/frontpage/logo_xiaohongsu.svg" alt="">
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@SmartShanghai-official" target="_blank">
+                <div class="footer-u2b">
+                    <img src="/img/frontpage/logo_u2b.svg" alt="">
+                </div>
+            </a>
+        </li>
+    </ul>
+            </div>
+            <div class="copyright">
+                <p>
+                    All material is copyright of SmartShanghai.com <br>
+                    Made in and for Shanghai since 2003 | <a href="https://beian.miit.gov.cn" target="_blank">沪ICP备08111777号-9</a>
+                </p>
+                <a class="return-top" href="#" title="Return Top"></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <div class="lightBox user-favorites-light-box" id="userFavoritesLightbox">
+    <div id="preloader" style="text-align: center"><img src="https://images.smartshanghai.com/img/general/loading.svg"></div>
+    <div id="hero">
+
+
+        <div id="requireSignIn" class="hidden">
+            <div class="header">
+                <h1>Sign in to sync your<br>favorites across devices</h1>
+                <p class="close"></p>
+            </div>
+
+            <div class="light-box-body" style="padding: 0">
+                <a href="/signin/"><button class="save" style="width: 100%; border-radius: 0;">Sign In</button></a>
+            </div>
+
+
+        </div>
+
+        <div id="saveToFavorites" class="hidden">
+            <div class="header">
+                <h1>Save to Favorites</h1>
+                <p class="close"></p>
+            </div>
+
+            <div class="light-box-body">
+                <textarea name="comment" rows="2" placeholder="Type a short comment why you like this venue, e.g. 'Great date spot with Bund view'" style="width: 100%;"></textarea>
+                <div class="checkbox">
+                    <input type="checkbox" name="is_public" value="1" checked="checked" id="favorites-is-public">
+                    <label for="favorites-is-public">This comment is <b>public</b> and may be seen by others</label>
+                </div>
+
+                <div class="scroll-hero">
+                    <ul class="light-favorites-list" id="favorites-list-selection">
+                    </ul>
+                    <ul>
+                        <li class="create-new-list"><img src="https://images.smartshanghai.com/img/icons/svg/icon-plus.svg">Create a new List</li>
+                    </ul>
+                </div>
+
+
+                <input type="text" name="new_list_title" class="hidden add-list" placeholder="Enter List Title">
+                <input type="hidden" name="venueId" value="">
+
+                    <input type="submit" name="saveFavorite" value="Loading ..." class="save disabled" disabled>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="confirmation" class="hidden confirmation">
+        <h1>Favorite Added</h1>
+        <button class="close button blue">Close Window</button>
+    </div>
+
+</div>
+<div id="sales-request-lightbox" class="lightbox hidden">
+
+    <h2>Thanks for your interest in our services</h2>
+    <p>Please reach out to our sales team through a contact channel below:</p>
+
+    <h3>By WeChat</h3>
+    <div class="sales-contact-method">
+        <div class="qrCode"><img src="https://images.smartshanghai.com/img/service/jacob-smsh-qr.png" loading="lazy"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    <div class="site-fixed-bottom">
+
+    <div class="feedback-box" id="smsh-feedback-box">
+
+    <div class="open-point"></div>
+
+    <div class="bg-shadow"></div>
+
+    <div class="feedback-box-body">
+
+        <div class="spinner hidden">
+            <div><img src="https://images.smartshanghai.com/img/general/loading.svg"></div>
+        </div>
+
+        <div class="success hidden">
+            <div>
+                <h1>Thank you for your feedback</h1>
+                <p>Our editors and admins will review your message and respond to <a href="/userarea/messaging/">your inbox</a></p>
+                <button class="button default2020 close">Close Window</button>
+            </div>
+        </div>
+
+        <div class="error hidden">
+            <div id="errorMessage"></div>
+        </div>
+
+        <div class="feedback-selects box" id="feedback-index">
+
+            <div class="navigation">
+                <div class="return"><br></div>
+                <div class="close">Close</div>
+            </div>
+            <div class="hero">
+                <div class="feedback-section-button withBottomBorder" data-tabslug="feedback-wronginfo">
+                    <h3>
+                        <div class="icon-wrong icon-wrong-dims" style="margin-right: 10px"></div>
+                        Report Wrong Information
+                    </h3>
+                    <div class="txt">
+                        Tell our editors about wrong, outdated or missing information on this page
+                    </div>
+                </div>
+
+                <div class="feedback-section-button withBottomBorder" data-tabslug="feedback-bugreport">
+                    <h3>
+                        <div class="icon-bug icon-bug-dims" style="margin-right: 10px"></div>
+                        Report a Technical Bug
+                    </h3>
+                    <div class="txt">
+                        Tell our tech team about something that isn’t working the way it should
+                    </div>
+
+                </div>
+
+                <div class="feedback-section-button" data-tabslug="feedback-general">
+                    <h3>
+                        <div class="icon-wrong icon-wrong-dims" style="margin-right: 10px"></div>
+                        General Feedback
+                    </h3>
+                    <div class="txt">
+                        Reach out to us with feedback or ideas, or learn how to promote your Business
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="feedback-selects technical hidden" id="feedback-bugreport">
+
+            <div class="navigation">
+                <div class="return">&#8592; Return</div>
+                <div class="close">Close</div>
+            </div>
+
+
+            <div class="hero">
+                <div>
+                    <h3>
+                        <div class="icon-bug icon-bug-dims" style="margin-right: 10px"></div>
+                        Report a Technical Bug
+                    </h3>
+                    <div class="txt">
+                        Tell our tech team about something that isn’t working the way it should
+                    </div>
+
+                </div>
+                <div>
+                    <textarea name="" cols="30" rows="6"></textarea>
+                    <a href="" class="button send submitFeedbackForm" data-supportuserslug="technicalSupport">SEND</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="feedback-selects wrong-information hidden" id="feedback-wronginfo">
+
+            <div class="navigation">
+                <div class="return">&#8592; Return</div>
+                <div class="close">Close</div>
+            </div>
+
+            <div class="hero">
+                <div>
+                    <h3>
+                        <div class="icon-wrong icon-wrong-dims" style="margin-right: 10px"></div>
+                        Report Wrong Information
+                    </h3>
+                    <div class="txt">
+                        Tell our editors about wrong, outdated or missing information on this page
+                    </div>
+                </div>
+                <div>
+                    <textarea name="" cols="30" rows="6"></textarea>
+                    <a href="" class="button send submitFeedbackForm"  data-supportuserslug="directorySupport">SEND</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="feedback-selects general hidden" id="feedback-general">
+
+            <div class="navigation">
+                <div class="return">&#8592; Return</div>
+                <div class="close">Close</div>
+            </div>
+
+            <div class="hero">
+                <div class="feedback-section-button withBottomBorder">
+                    <a class="divider" href="/mediakit/">
+                        <h3>
+                            <div class="icon-promote icon-promote-dims" style="margin-right: 10px"></div>
+                            Promote Your Business
+                        </h3>
+                        <div class="txt">
+                            Learn more about how you can promote your business with us.
+                        </div>
+                    </a>
+                </div>
+
+                <div class="feedback-section-button withBottomBorder">
+                    <a class="divider" href="/userarea">
+                        <h3>
+                            <div class="icon-get icon-get-dims" style="margin-right: 10px"></div>
+                            Get Listed
+                        </h3>
+                        <div class="txt">
+                            List an Event, a venue, job, apartment or something to sell on our site
+                        </div>
+                    </a>
+                </div>
+
+                <div class="feedback-section-button">
+                    <a href="/contact/?sourceId=2">
+                        <h3>
+                            <div class="icon-general icon-general-dims" style="margin-right: 10px"></div>
+                            General Enquiry
+                        </h3>
+                        <div class="txt">
+                            Reach out to our team with feedback, ideas or to speak to a specific department
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+</body>
+</html>
